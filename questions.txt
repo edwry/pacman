@@ -1,0 +1,49 @@
+1. "But we always consider the reward computation to be external to the agent because it defines the task facing the agent and thus must be beyond its ability to change arbitrarily."
+ * What is the driving mechanism for an agent to choose a different goal, which means a choosing different reward function?
+  * Is it because the observation function changes? Yet if an agent observe "more", the agent can still decide to ignore.
+  * Is it from "reasoning" between a new observation function and the world model of the agent?
+   * Is "reasoning" natural or only unique to beings that we know of?
+  * Does the concept of a highest order/level observation or reward function exist?
+   * Is our reward function partly defining the benefit to uncover this higher level reward function?
+   * Why is it then this higher level reward function is not obvious to the agent in the first place?
+
+2. "The reward signal is your way of communicating to the robot what you want it to achieve, not how you want it achieved."
+ * Humans do not know exactly what they want, and yet humans are acting quite well.
+  * Is there something missing in the reinforcement learning framework here?
+ * What is the reward function of "doing something you love"?
+ * What is the reward function for us humans?
+  * This question is synonymous as the question of the purpose of life?
+ * Is there any benefit in having derivative/lower order reward functions that serves the higher order reward functions?
+ * Is there any benefit in having "intermediary" reward functions for a reinforcement learning algorithm?
+
+3. "Rewards are computed in the environment instead of in the agent"
+ * Is this statement analoguous to "An agent's purpose is defined by its environment?"
+ * Does the environment compute the reward function that drives "doing something you love"?
+ * "It should not be able, for example, to simply decree that the reward has been received in the same way that it might arbitrarily change its actions."
+
+4. Can the reinforcement learning be applied to evolution? in terms of observation, reward, and action
+ * Look further in the primordial soup
+
+5. Is the Big Bang an algorithm? Is it a reinforcement learning algorithm?
+
+6. Can the discount rate be learned? Can its optimization be one of the goal of the reinforcement learning algorithm?
+ * Is the discount rate some value that is inherited within an agent?
+
+7. Should the discount rate always be static?
+ * Is there any benefit in having a dynamic discount rate?
+
+8. "Solving a reinforcement learning task means, roughly, finding a policy that achieves a lot of reward over the long run."
+ * Is there any benefit in having a dynamic policy?
+  * If the Markov property is satisfied, then the answer should be no.
+
+9. Why can't T=infty and gamma>=1 be true together?
+ * It is analogous to the question whether death gives life meaning
+
+10. Policy improvement theorem: q_π(s,π'(s)) >= v_π(s) -> v_π'(s) >= v_π(s)
+  * In human terms, a change in attitude or how we respond to events can result in better "value" in being in any scenario/state
+  * Being appreciative may be the key to being more happy (just a change in attitude)
+
+11. "In fact, the policy evaluation step of policy iteration can be truncated in several ways without losing the convergence guarantees of policy iteration."
+ * Is it synonymous with the statement "Without reflection on what the agent actually values, the agent can still improve in its act?"
+
+12. What is the difference between learning and computing?
