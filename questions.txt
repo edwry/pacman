@@ -47,3 +47,67 @@
  * Is it synonymous with the statement "Without reflection on what the agent actually values, the agent can still improve in its act?"
 
 12. What is the difference between learning and computing?
+ * Computing implies that the problem is clearly defined including all of its nuances
+ * Learning implies that the problem is not clearly defined, and the only available information is experience
+ * ???
+
+13. Is it true that evolution can be seen as Monte Carlo with Exploring Starts?
+
+14. "Each error is proportional to the change over time of the prediction, that is, to the temporal differences in predictions."
+ * What the fuck does this mean?
+
+15. How is backup diagrams useful?
+
+16. True online vs real time?
+
+17. Is there any correlation between the Forward View of TD and breadth-first learning?
+
+18. What is the difference between importantce sampling and eligibility tracing?
+
+18. Do most humans and animals learn by direct or indirect reinforcement learning?
+
+19. "Both direct and indirect methods have advantages and disadvantages.
+     Indirect methods often make fuller use of a limited amount of experience and thus achieve a better policy with fewer environmental interactions.
+     On the other hand, direct methods are much simpler and are not affected by biases in the design of the model.
+     Some have argued that indirect methods are al- ways superior to direct ones, while others have argued that direct methods are responsible for most human and animal learning."
+ * Is it the case that indirect learning is computationally more intensive?
+  * If that's the case, are there any merit in dynamically choosing which type of learning is done by an agent?
+ * Is "knowledge" (in contrast with raw information) the thing that we refer to as playing/interacting with our world model?
+  * In other words, is knowledge the ability to plan?
+  * Or maybe, is genuine and new thinking synonymous to the the ability to plan?
+  * Is knowledge acquired partly in believing?
+ * Is being biased always necessarily a bad thing?
+  * If an agent only acts within its own local environment, it's world model is biased regarding what works within its local environment,
+    and yet the agent performs relatively to other agents acting in their own respective environments.
+    * Does this example show that being biased in not always a bad thing?
+
+20. How does an agent knows whether it is better to learn with planning or not, per the time for an evaluation and improvement cycle?
+
+21. "When the environment changed, the graphs become flat, indicating a period during which the agents obtained no reward because they were wandering around behind the barrier. After a while, however, they were able to find the new opening and the new optimal behavior."
+ * Does this mean that if the agent was given the information that the environment had changed,
+   it is better for the agent to remove all known information regarding its world model for it will make the agent learn faster?
+   * How do we measure how different 2 environments are to each other?
+    * Cross entropy?
+   * What does it mean when we say that an environment is better to another environment?
+    * Or is this not possible in the perspective of information entropy?
+
+22. Is "studying" (not learning) referring to updating the agent's world model or the agent's value functions?
+
+23. How can an agent learn about the dynamics of the environment itself?
+
+24. What the fuck is computational curiosity?
+ * ChatGPT: Computational curiosity refers to the ability of a machine learning system to explore and seek out new information in order to improve its own performance.
+   Essentially, it is a measure of how much a machine learning algorithm is driven to learn more about its environment,
+   and how willing it is to experiment and take risks in order to gather more data.
+
+25. What is a "backup" in the philosophical sense?
+
+26. Can an agent reinforcemently learns its own reinforcement learning algorithm?
+ * Where does information exist in a neural network?
+ * If one wants to attempt to experiment with this idea, should the reinforcement learning agent be a learning Turing Machine?
+
+27. "Actor–critic methods are the natural extension of the idea of gradient- bandit methods"
+ * How?
+
+28. "The sequential design of experiments"
+ * 
